@@ -5,8 +5,8 @@ async function register() {
 
   const { Workbox } = await import('workbox-cdn/workbox/workbox-window.prod.es5.mjs')
 
-  const workbox = new Workbox('/sw.js', {
-    scope: '/'
+  const workbox = new Workbox('/kousikaganesan.github.io/sw.js', {
+    scope: '/kousikaganesan.github.io/'
   })
 
   await workbox.register()
