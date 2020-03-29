@@ -2,6 +2,7 @@ import colors from 'vuetify/es5/util/colors'
 
 export default {
   mode: 'spa',
+  router: { base: '/kousikaganesan.github.io' },
   /*
    ** Headers of the page
    */
