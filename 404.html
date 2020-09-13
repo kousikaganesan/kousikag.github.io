@@ -44,6 +44,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        height: 100vh;
     }
     .title {
         color: white;
@@ -68,9 +69,14 @@
     .rocket {
         height: 36px;
     }
+    .not-found {
+        width: 100%;
+        object-fit: contain;
+        padding: 15px;
+    }
 </style>
 <body>
-<img src="404.png" alt="404"/>
+<img class="not-found" src="404.png" alt="404"/>
 <div class="title">Hey Captain! Looks like you're heading to a wrong planet!</div>
 <a class="home" href="https://kousikaganesan.github.io/">Take me back to Home <img class="rocket" src="rocket.png" alt="rocket" /></a>
 </body>
